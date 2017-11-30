@@ -1,0 +1,357 @@
+{"questionbase":[  
+	{
+	"question":"Where Rainbow table can be used?",
+	"option1":"In cracking password hashes",
+	"option2":"In creating Abstract Graphics",
+	"option3":"In Management - networking for big companies"
+	},
+	{
+	"question":"In IT security - What is Dictionary Attack?",
+	"option1":"Running through specific list of keys/combinations",
+	"option2":"Running through all possible keys/combinations",
+	"option3":"Collection of personal information"
+	},
+	{
+	"question":"In IT security - What is Brute Force Attack?",
+	"option1":"Running through all possible keys/combinations",
+	"option2":"Sending too much keys at once to someone",
+	"option3":"Collection of personal information"
+	},
+	{
+	"question":"Which of the following companies have never produced personal computers?",
+	"option1":"American Megatrends",
+	"option2":"Apple",
+	"option3":"Xerox"
+	},
+	{
+	"question":"What do the S and D stand for in SIMM/DIMM?",
+	"option1":"Single and Dual",
+	"option2":"Safe and Direct",
+	"option3":"Service and Driver"
+	},
+	{
+	"question":"What type of data structure is a queue?",
+	"option1":"FIFO",
+	"option2":"LIFO",
+	"option3":"FILO"
+	},
+	{
+	"question":"What is RDP?",
+	"option1":"Remote Desktop Protocol",
+	"option2":"Remote Driver Parallelism",
+	"option3":"Resolution Diagnostics Program"
+	},
+	{
+	"question":"Why might you roll back a driver?",
+	"option1":"If it causes computer-related errors",
+	"option2":"If it's not digitally signed",
+	"option3":"If there is a newer version of the driver"
+	},
+	{
+	"question":"What is a Dead Pixel?",
+	"option1":"Hardware error on the screen where a pixel may not appear correctly",
+	"option2":"Software glitch / bug in the GPU",
+	"option3":"When the screen is damaged physically"
+	},
+	{
+	"question":"Which of the following is not a Web Server software?",
+	"option1":"X Server",
+	"option2":"Apache",
+	"option3":"Lighttpd"
+	},
+	{
+	"question":"What type of data structure is a stack?",
+	"option1":"LIFO",
+	"option2":"FIFO",
+	"option3":"LILO"
+	},
+	{
+	"question":"Which of the following tools cannot be used to encrypt files?",
+	"option1":"nmap",
+	"option2":"openssl",
+	"option3":"enfcs"
+	},
+	{
+	"question":"In Linux - what is the name of the process with PID 1?",
+	"option1":"init",
+	"option2":"nautilus",
+	"option3":"kernel"
+	},
+	{
+	"question":"In Linux - which runlevel is a multiuser runlevel?",
+	"option1":"2 to 5",
+	"option2":"Only 1",
+	"option3":"There is no multiuser runlevel in Linux"
+	},
+	{
+	"question":"What does the registry key HKCR contain in every Windows OS?",
+	"option1":"Data for File Association",
+	"option2":"Desktop Preferences",
+	"option3":"Startup Programs"
+	},
+	{
+	"question":"IRQ stands for?",
+	"option1":"Interrupt Request",
+	"option2":"Integrated Readible Query",
+	"option3":"Instruction-Resolving Question"
+	},
+	{
+	"question":"If IPV4 is 32 Bit - how large is an IPV6 Address?",
+	"option1":"128 bit",
+	"option2":"64 bit",
+	"option3":"Same - 32 bit"
+	},
+	{
+	"question":"Nslookup is used for querying ....?",
+	"option1":"DNS Servers",
+	"option2":"Databases",
+	"option3":"DHCP"
+	},
+	{
+	"question":"In programming - what is an argument?",
+	"option1":"A value passed to a function",
+	"option2":"A proof of the concept that is developed",
+	"option3":"A conflict with multiple sources of data"
+	},
+	{
+	"question":"In web programming - what is Query String?",
+	"option1":"The part of the URL after the question mark",
+	"option2":"The part of the URL after the pound symbol",
+	"option3":"A variable from the HTTP Response"
+	},
+	{
+	"question":"What will happen if we run the command: switchport access vlan 1957 on a CISCO Switch?",
+	"option1":"The current port will be placed in vlan 1957",
+	"option2":"Nothing - this is wrong command",
+	"option3":"It would give you access to vlan 1957"
+	},
+	{
+	"question":"How many wires can be found in a cat5e cable?",
+	"option1":"Just 8",
+	"option2":"12 or more",
+	"option3":"4 or 6"
+	},
+	{
+	"question":"What does LSB stand for?",
+	"option1":"Least Significant Bit",
+	"option2":"Least Significant Byte",
+	"option3":"Load Syncronized Box"
+	},
+	{
+	"question":"Which of the following items is not a layer of the OSI network model?",
+	"option1":"Ethernet",
+	"option2":"Transport",
+	"option3":"Session"
+	},
+	{
+	"question":"What type of cable would you use if you are connecting two devices of the same type?",
+	"option1":"Crossover",
+	"option2":"Straight-through cable",
+	"option3":"Any type would work"
+	},	
+	{
+	"question":"In python - what is Tuple?",
+	"option1":"Immutable List",
+	"option2":"The index of a List",
+	"option3":"Helper Class"
+	},	
+	{
+	"question":"Where is usually used a polimorphic code?",
+	"option1":"In Computer Viruses (Hiding)",
+	"option2":"In Graphic Design (Abstract)",
+	"option3":"In drivers (Hardware compatibility)"
+	},	
+	{
+	"question":"Which HTTP method was added in the HTTP/1.1 specification?",
+	"option1":"OPTIONS",
+	"option2":"GET",
+	"option3":"HEAD"
+	},	
+	{
+	"question":"What is usually a disadvantage between the distributed VCS in comparison to a centralized VCS?",
+	"option1":"The initial cloning is slower",
+	"option2":"Users can't commit any changes",
+	"option3":"Most operations are slower without server"
+	},	
+	{
+	"question":"What is DirectX?",
+	"option1":"Collection of Multimedia API's",
+	"option2":"Graphic Drivers",
+	"option3":"Programming Language for Games"
+	},	
+	{
+	"question":"Which Linux distribution appeared first?",
+	"option1":"Debian",
+	"option2":"Ubuntu",
+	"option3":"Mint"
+	},	
+	{
+	"question":"In Windows - What is DLL?",
+	"option1":"Dynamic Link Library",
+	"option2":"Data Linked List",
+	"option3":"Disk Loader Library"
+	},	
+	{
+	"question":"What is ATAPI?",
+	"option1":"Advanced Technology Attachment Packet Interface",
+	"option2":"Adaptable Technology Attachment Packet Interface",
+	"option3":"Advanced Technology Adaptable Packet Interface"
+	},
+	{
+	"question":"What is X.500?",
+	"option1":"Directory Services",
+	"option2":"Networking Protocol",
+	"option3":"Programming Language"
+	},	
+	{
+	"question":"In every linux - which signal cannot be trapped?",
+	"option1":"9 KILL",
+	"option2":"3 QUIT",
+	"option3":"15 TERM"
+	},	
+	{
+	"question":"What is the most likely cause of a stack overflow?",
+	"option1":"Too deep recursion when using a recursive function",
+	"option2":"Trying to access an array element by a negative index",
+	"option3":"When your stack size is not set to unlimited"
+	},	
+	{
+	"question":"What is routing table used for?",
+	"option1":"Calculation of the destination of network data",
+	"option2":"Filtering important data",
+	"option3":"Arranging data in the proper order"
+	},	
+	{
+	"question":"In Web programming - What can HTTP POST do and HTTP GET cannot?",
+	"option1":"Upload Files",
+	"option2":"Create Cookies",
+	"option3":"Pass multiple variables to a form"
+	},	
+	{
+	"question":"What is Thin client?",
+	"option1":"A computer which relies on a server to provide processing resources",
+	"option2":"Small/Portable computer",
+	"option3":"All-in-one desktop computer"
+	},	
+	{
+	"question":"Where disk striping is commonly used?",
+	"option1":"RAID",
+	"option2":"PCI-E",
+	"option3":"DDR"
+	},	
+	{
+	"question":"What is the desktop heap?",
+	"option1":"An area of memory used for desktop elements",
+	"option2":"Desktop container with all attributes",
+	"option3":"desktop heap does not exist"
+	},
+	{
+	"question":"What can you exploit using SQL injection exploit?",
+	"option1":"Databases",
+	"option2":"Client-side technologies",
+	"option3":"Operating systems"
+	},
+	{
+	"question":"Where can you use the command : conf t ?",
+	"option1":"CISCO Switches",
+	"option2":"Linux Terminal Box",
+	"option3":"Windows Command Prompt"
+	},
+	{
+	"question":"What is Hyper-V?",
+	"option1":"Virtualization product",
+	"option2":"Programming IDE",
+	"option3":"Operating System"
+	},
+	{
+	"question":"In a laser printer - what does the imaging drum do?",
+	"option1":"Attracts the toner and applies it to the paper",
+	"option2":"Melts the color and applies the data on the paper",
+	"option3":"Interprets the data from the source"
+	},
+	{
+	"question":"What is the weakest point in the IT Security of a typical large company?",
+	"option1":"The employees",
+	"option2":"The Firewall software / Hardware",
+	"option3":"The Network protocols"
+	},
+	{
+	"question":"In IT - What is Selenium used for?",
+	"option1":"Browser Automation & Testing",
+	"option2":"Website Development",
+	"option3":"Server Configuration"
+	},
+	{
+	"question":"In Linux - With what command can you check your private IP Address?",
+	"option1":"ifconfig",
+	"option2":"ipconfig",
+	"option3":"netstat"
+	},
+	{
+	"question":"How many classes can be inherited in Java from one class?",
+	"option1":"One",
+	"option2":"Infinite (There is no limit)",
+	"option3":"Java can't inherit classes, only interfaces"
+	},
+	{
+	"question":"When was the company Intel founded?",
+	"option1":"1968",
+	"option2":"1975",
+	"option3":"1982"
+	},
+	{
+	"question":"Which of these server responses is not correct?",
+	"option1":"404 Internal Server Error",
+	"option2":"418 I'm a teapot",
+	"option3":"400 Bad Request"
+	},
+	{
+	"question":"How would you allow specific data to pass through a Firewall?",
+	"option1":"With an exception",
+	"option2":"With Open Ports",
+	"option3":"With a proxy"
+	},
+	{
+	"question":"What does CRC Stand for?",
+	"option1":"Cyclic Redundancy Check",
+	"option2":"Common Root Center",
+	"option3":"Create Readable Control"
+	},
+	{
+	"question":"What compiler can do?",
+	"option1":"Translate source code into an executable",
+	"option2":"Unpack executable in human-readible format",
+	"option3":"Generate software certificates"
+	},
+	{
+	"question":"Which of the following is non-volatile storage?",
+	"option1":"SATA Hard Disk",
+	"option2":"DDR2 RAM Memory module",
+	"option3":"GPU"
+	},
+	{
+	"question":"What is a hardware profile used for?",
+	"option1":"To tell the OS which devices needs to start at startup",
+	"option2":"To get correct measures for performance",
+	"option3":"To choose what drivers are suitable for that configuration"
+	},
+	{
+	"question":"In the memory stack - how is data written/read?",
+	"option1":"Last In First Out (LIFO)",
+	"option2":"First In First Out (FIFO)",
+	"option3":"It is deleted after every writing operation"
+	},
+	{
+	"question":"How (With what tool) might you register a DLL file in any Windows?",
+	"option1":"regsvr32.exe",
+	"option2":"regdll32.exe",
+	"option3":"Only windows can register DLL files automatically"
+	},
+	{
+	"question":"What is FTP used for?",
+	"option1":"Downloading and Uploading Files",
+	"option2":"Server Configuration",
+	"option3":"Installing Software Remotely from Network"
+	}
+]
+}
