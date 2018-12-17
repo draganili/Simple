@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NoobStrike - DraganIli WebGL Game</title>
+  <style>  
+  body {
+      cursor: crosshair;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: italic;
+      margin: 0;
+      overflow: hidden;
+      padding: 0;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    #hud {
+      bottom: 20px;
+	  background-color: black;
+	  color: green;
+      position: absolute;
+      right: 10px;
+      z-index: 100;
+    }
+    #credits {
+      font-size: 15px;
+      position: absolute;
+      text-align: center;
+      top: 20px;
+      width: 100%;
+      z-index: 100;
+    }
+    p {
+      background-color: #90E9E6;
+      border: 1px solid black;
+      display: inline-block;
+      margin: 0;
+      padding: 5px;
+    }
+    #radar {
+      background-color: #90E9E6;
+      border: 1px solid black;
+      bottom: 10px;
+      left: 10px;
+      position: absolute;
+      z-index: 100;
+    }
+    #intro {
+      background-color: #000000;
+      color: #38E2F8;
+      cursor: pointer;
+      font-size: 32px;
+      opacity: 0.7;
+      padding: 120px;
+      text-align: center;
+      z-index: 1001;
+    }
+    #hurt {
+      background-color: #B82727;
+      display: none;
+      left: 0;
+      opacity: 0.2;
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      z-index: 1002;
+    }</style>
+  <script src="jquery.min.js"></script>
+  <script src="Three.js"></script>
+  <script src="ThreeFPS.js"></script>
+  <script src="brain.js"></script>
+</head>
+<body>
+</body>
+</html>
