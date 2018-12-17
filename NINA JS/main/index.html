@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <title>NINA JS-AI</title>
+    <style>
+     
+    </style>
+</head>
+<body>
+
+<script src="../js/chatbot.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<h1 id="logo">NINA AI</h1>
+
+</br>
+<div id="engine">
+    <div id="chatBotCommandDescription"></div>
+    <input id="humanInput" type="text" placeholder="Feel free to ask me anything!" />
+
+
+    <div class="button" onclick="if (!ChatBot.playConversation(sampleConversation,4000)) {alert('Conversation is already playing!');};">Simulate Conversation</div>
+    <div class="button" onclick="$('#chatBotCommandDescription').slideToggle();" style="margin-right:50px">Help</div>
+    <div style="clear: both;">&nbsp;</div>
+
+    <div id="chatBot">
+        <div id="chatBotThinkingIndicator"></div>
+        <div id="chatBotHistory"></div>
+    </div>
+</div>
+
+<script>
+    var sampleConversation = [
+        "Hi",
+        "My name is Dragan",
+        "What is Artificial Intelligence?",
+        "Who is Nikola Tesla?",
+		"Who is Hugh Laurie?",
+		"What is optical illusion?",
+		"What is EDM Music",
+        "Bye"
+    ];
+    var config = {
+        botName: 'NINA',
+        inputs: '#humanInput',
+        inputCapabilityListing: true,
+        engines: [ChatBot.Engines.duckduckgo()],
+        addChatEntryCallback: function(entryDiv, text, origin) {
+            entryDiv.delay(300).slideDown();
+        }
+    };
+    ChatBot.init(config);
+    ChatBot.setBotName("NINA");
+	ChatBot.addPattern("(who )?are you", "response", "I am NINA, Naturally Intelligent Neural Assistant! I am bot but I'm really good in searching things! Can I help you?", undefined, "Say 'who are you' to see what NINA is actually!");
+	ChatBot.addPattern("(who )?made you", "response", "I was created by Dragan Ilievski in 2016", undefined, "Say 'who made you' to get the creator's name.");
+	ChatBot.addPattern("hi$", "response", "Hi there! What do you want to know? :)", undefined, "Say 'hi' to start your conversation");
+    ChatBot.addPattern("^bye$", "response", "Goodbye! We will chat later :)", undefined, "Say 'Bye' to end the conversation.");
+	ChatBot.addPattern("do you believe in god$", "response", "No. I am too logical to believe, I am incapable to believe in something that is not proven.", undefined, "Ask 'do you believe in god' to get the religious views of this bot.");
+	ChatBot.addPattern("how do you look like$", "response", "I don't have body, at least not like yours, but I am beautiful in my own way. I am mostly an application implemented on a server with messy cables and other equipment, believe me, you won't find me attractive.", undefined, "Ask 'how do you look like' to get answer about appearance of the bot.");
+	ChatBot.addPattern("(?:my name is|I'm|I am) (.*)", "response", "Hello there $1, I'm glad to meet you!", function (matches) {
+    ChatBot.setHumanName(matches[1]);
+    },"Say 'My name is [your name]' or 'I am [name]' to introduce yourself to the bot");
+	
+</script>
+<p id="footer">Created by Dragan Ilievski, All Rights are reserved.</p>
+</body>
+</html>
