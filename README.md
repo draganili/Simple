@@ -1,2 +1,2 @@
-# Web-Projects
-This repository contains open-source projects that are related to front-end technologies.
+# Simple
+This repository contains open-source projects and snippets that were created while learning some technologies.
